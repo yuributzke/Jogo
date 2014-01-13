@@ -1,0 +1,87 @@
+
+Simplificado
+
+Personagem
+----------------------
+A cada Nível que o personagem passar ele ganha Pontos de Atributos e Pontos de Habilidades para
+distribuir da manheira que quiser.
+
+Atributos:
+Cada atributo irá gastar uma certa quatidade de Pontos para poder ser melhorado :
+->Forca(1): 
+	Aumenta em % o poder de ataque dos monstros.
+->Inteligencia(2): 
+	Aumenta em % a defesa dos monstros e a quantia de "Moeda do jogo" ganho de qualquer maneira
+->Agilidade(3): 
+	Diminui o tempo de espera para qualquer coisa
+->Destreza(4): 
+	Aumenta em % a chances de consguir completar uma missão ou atacar com mais dano o inimigo
+->Sorte(5):
+	Aumenta em % a chance de conseguir itens/monstros(melhores)
+
+Mecanismo de Habilidades:
+->Arvore de Habilidades:
+	Conforme o nível do personagem aumenta ele pode adicionar habilidades.
+	Serão divididos com mais precisão do que os Atributos.
+	Sofrem efeito sobre os Atributos principais
+	Exemplo Por Nível:
+		-> 1% + Ataque.
+		-> 1% + Chance de ataque crítico.
+		-> 1% + Dano crítico.
+		-> 1% + Defesa.
+		-> 1% + "Ganho de Moeda do Jogo" por missão.
+		-> 1% + "Ganho de Moeda do Jogo" por calabouço.
+		-> 1% + "Ganho de Moeda do Jogo" por batalha.
+		-> 1% + Ganho de Exeperiência por missão.
+		-> 1% + Ganho de Exeperiência por calabouço.
+		-> 1% + Ganho de Exeperiência por batalha.
+		-> 1% - de tempo para fazer missão.
+
+Parceiro:
+Monstro escolido para influenciar com sua habilidade especial.
+
+Time de batahla:
+Cada personagem possui sua equipe de monstros dos quais servem para fazer batalhas e calabouços.
+-------------------------------
+
+Monstros
+-------------------------------
+Terão um elemento para poder diferenciar as habilidades dos monstros:
+->Elementos:
+	Fogo -> Aumenta % de Ataque
+	Agua -> Aumenta % de Defesa
+	Terra -> Aumenta % de "Ganho de Moeda do Jogo"
+	Vento -> Diminui o tempo de espera
+	Eletrico -> Aumenta % de Experiência ganha 
+	Santo -> Não definido
+	Sombrio -> Não definido
+
+Todos os monstros terão um nível de Classificação que influênciara no poder da habilidade.
+->Níveis:
+	Normal
+	Raro
+	Lendário
+	-Etc-
+
+->Atributos:
+	Ataque:
+		Serve para poder decidir quantidade de dano que irá causar contra um inimigo.
+	Defesa:
+		Serve para poder decidir quantidade de dano que irá ser reduzido em um batalha.
+-------------------------------
+
+Missão
+-------------------------------
+Serão feitas para conseguir monstros/itens/"Ganho de Moeda do Jogo" conforme tempo necessário para completar
+-------------------------------
+
+Calabouço
+-------------------------------
+Terão o objetivo de usar os monstros(Poder de Atque/Defesa) para consguir monstros/itens especiais e definir um ranking.
+Não terão tempo para conclusão.
+-------------------------------
+
+Batalhas
+-------------------------------
+Serão feitas contra outros Jogadores para definir um ranking e consguir recompensas e completar objetivos
+-------------------------------
