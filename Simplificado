@@ -1,78 +1,83 @@
+Autor: Yuri Alexander Buzke
 
 Simplificado
 
-Personagem
+Avatar
 ----------------------
-A cada Nível que o personagem passar ele ganha Pontos de Atributos e Pontos de Habilidades para
+A cada Nível que o avatar passar ele ganhará 5 Pontos de Atributos e 1 Ponto de Habilidade para
 distribuir da manheira que quiser.
 
 Atributos:
 Cada atributo irá gastar uma certa quatidade de Pontos para poder ser melhorado :
 ->Forca(1): 
-	Aumenta em % o poder de ataque dos monstros.
+	Aumenta em % dano causado em qualquer situação.
 ->Inteligencia(2): 
-	Aumenta em % a defesa dos monstros e a quantia de "Moeda do jogo" ganho de qualquer maneira
-->Agilidade(3): 
-	Diminui o tempo de espera para qualquer coisa
-->Destreza(4): 
-	Aumenta em % a chances de consguir completar uma missão ou atacar com mais dano o inimigo
-->Sorte(5):
-	Aumenta em % a chance de conseguir itens/monstros(melhores)
+	Diminui em % todo dano recebido em qualquer situação.
+->Destreza(3): 
+	Diminui o tempo para poder realizar batalhas e missões.
+->Sorte(4):
+	Aumenta em % a chance de conseguir itens, monstros, experência e "Moeda do jogo".
 
 Mecanismo de Habilidades:
 ->Arvore de Habilidades:
-	Conforme o nível do personagem aumenta ele pode adicionar habilidades.
+	Conforme o nível do avatar aumenta ele pode adicionar habilidades.
 	Serão divididos com mais precisão do que os Atributos.
 	Sofrem efeito sobre os Atributos principais
 	Exemplo Por Nível:
-		-> 1% + Ataque.
 		-> 1% + Chance de ataque crítico.
 		-> 1% + Dano crítico.
-		-> 1% + Defesa.
 		-> 1% + "Ganho de Moeda do Jogo" por missão.
 		-> 1% + "Ganho de Moeda do Jogo" por calabouço.
 		-> 1% + "Ganho de Moeda do Jogo" por batalha.
 		-> 1% + Ganho de Exeperiência por missão.
 		-> 1% + Ganho de Exeperiência por calabouço.
-		-> 1% + Ganho de Exeperiência por batalha.
-		-> 1% - de tempo para fazer missão.
+		-> 1% + Ganho de Exeperiência por batalha.		
 
-Parceiro:
-Monstro escolido para influenciar com sua habilidade especial.
-
-Time de batahla:
-Cada personagem possui sua equipe de monstros dos quais servem para fazer batalhas e calabouços.
+Coleção
 -------------------------------
-
-Monstros
--------------------------------
-Terão um elemento para poder diferenciar as habilidades dos monstros:
-->Elementos:
-	Fogo -> Aumenta % de Ataque
-	Agua -> Aumenta % de Defesa
-	Terra -> Aumenta % de "Ganho de Moeda do Jogo"
-	Vento -> Diminui o tempo de espera
-	Eletrico -> Aumenta % de Experiência ganha 
-	Santo -> Não definido
-	Sombrio -> Não definido
-
-Todos os monstros terão um nível de Classificação que influênciara no poder da habilidade.
+Os personagens da coleção terão 2(dois) atributos.
+->Atributos:
+	->Ataque:
+		Serve para poder decidir quantidade de dano que irá causar contra um inimigo.
+	->Defesa:
+		Serve para poder decidir quantidade de dano que irá ser reduzido em um batalha.
+		
+Todos os personagens terão um nível de Classificação que influênciara em seus atributos.
 ->Níveis:
-	Normal
-	Raro
-	Lendário
+	->Normal:
+		10 - pontos
+		
+	->Raro:
+		50 - pontos
+		
+	->Lendário:
+		100 - pontos
 	-Etc-
 
-->Atributos:
-	Ataque:
-		Serve para poder decidir quantidade de dano que irá causar contra um inimigo.
-	Defesa:
-		Serve para poder decidir quantidade de dano que irá ser reduzido em um batalha.
+Cada personagem tem seu elemento que define atribuição de seus atributos.
+->Elementos:
+	->Neutro:
+		50% Ataque - 50% Defesa
+	
+	->Fogo:
+		70% Ataque - 30% Defesa
+		
+	->Agua:
+		30% Ataque - 70% Defesa
+		
+	->Vento:
+		90% Ataque - 10% Defesa
+		
+	->Terra:
+		10% Ataque - 90% Defesa
+
+		
+*Observação: Nada impede que sejam feitos personagens com atributos váriados.
 -------------------------------
 
 Missão
 -------------------------------
-Serão feitas para conseguir monstros/itens/"Ganho de Moeda do Jogo" conforme tempo necessário para completar
+Para cada nível em que o Avatar se encontra estarão disponíveis mais missões para ele realizar.
 -------------------------------
 
 Calabouço
